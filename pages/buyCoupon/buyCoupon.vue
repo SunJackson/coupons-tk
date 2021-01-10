@@ -1,13 +1,13 @@
 <template>
 	<view class="container">
-		
+		<add-tip :tip="tip" :duration="duration"/>
+		<u-notice-bar mode="horizontal" :is-circular="false" :list="noticeList" :duration="4000" :more-icon="true"></u-notice-bar>
 		<u-sticky class="top">
 			<view class="search">
 				<u-search placeholder="搜索商品" v-model="title" :clearabled="true" @search="searchShop()"></u-search>
 			</view>
 			<u-subsection :list="subsectionList" :current=current mode="subsection" active-color="#dea048" inactive-color="#e3e3e3" @change="sectionChange"></u-subsection>
 		</u-sticky>
-		
 		
 		<view class="shop-main">
 			<view class="shop flex-column" v-for="(shop ,index) in shops" :key="index">
@@ -36,6 +36,7 @@
 </template>
 
 <script>
+	import addTip from "../../components/add-tip/add-tip.vue";
 	export default {
 		data() {
 			return {
@@ -55,8 +56,14 @@
 						name: '拼多多'
 					}
 				],
-				current: 1
+				current: 1,
+				tip:"「添加小程序」,下次不迷路",
+				duration: 5,
+				noticeList: ["关注公众号【猿起缘落】，每天领取大额优惠券！", "先领券后下单，一年能省一半钱！", "点击右下角订阅按钮，优惠不错过！"],
 			}
+		},
+		components:{
+		            addTip
 		},
 		onShareAppMessage(res) {
 			var imagesList = ['../../static/taobaoshare.jpg', '../../static/pinduoduoshare.jpg'];

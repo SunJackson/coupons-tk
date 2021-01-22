@@ -1,15 +1,8 @@
  
-var apiUrl = 'https://www.sunjackson.com'; //放入后台接口的url
+var apiUrl = 'http://127.0.0.1:5000'; //放入后台接口的url
  
 // #ifdef H5
-var baseUrl = 'https://www.sunjackson.com';
-if (process.env.NODE_ENV === 'development') {
-	//本地环境，即开发环境
-	baseUrl = '/api'
-} else {
-	//线上环境
-	baseUrl = apiUrl
-}
+var baseUrl = 'http://127.0.0.1:5000';
 // #endif
  
  

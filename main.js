@@ -8,7 +8,6 @@ import uView from "uview-ui";
 Vue.use(uView);
 
 Vue.config.productionTip = false
-Vue.prototype.$urls = 'https://www.sunjackson.com';  //线上url接口
 Vue.prototype.$http = http;
 
 Vue.mixin({

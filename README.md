@@ -43,12 +43,15 @@
 - 如有打赏，帮你解决BUG的速度会更快哦
 
 赞赏
+
 <img src="./data/打赏.jpg" width="200"/>
 
 微信
+
 <img src="./data/微信.jpg" width="200"/>
 
 公众号
+
 <img src="./data/gzh.jpg" width="200"/>
 
 如有线上案例或疑问，请提issue，或者关注微信公众号【猿起缘落】

@@ -44,11 +44,15 @@
 - 欢迎加作者微信【sunjiajis】，备注淘客源码。进群交流
 - 如有打赏，帮你解决BUG的速度会更快哦
 
-赞赏
+
+赞赏：
+
 <img src="./data/打赏.jpg" width="200"/>
 
-微信
+微信：
+
 <img src="./data/微信.jpg" width="200"/>
 
-公众号
+公众号：
+
 <img src="./data/gzh.jpg" width="200"/>

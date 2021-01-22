@@ -7,18 +7,14 @@
 
 ### 一点有惠 —— 淘宝、拼多多领券小程序
 
-![小程序码](./data/gh_dde6ff1903d4_258.jpg)
-![](./data/yidianyouhui.png)
+<img src="./data/gh_dde6ff1903d4_258.jpg" width="200"/><img src="./data/yidianyouhui.png" width="200"/>
 
-![](./data/淘宝首页.png)
-![](./data/淘宝类目页.png)
-![](./data/淘宝搜索页.png)
-![](./data/淘宝详情页.png)
-![](./data/拼多多首页.png)
-![](./data/拼多多类目页.png)
-![](./data/拼多多搜索页.png)
-![](./data/拼多多详情页.png)
-![](./data/个人中心页面.png)
+<img src="./data/淘宝首页.png" width="200"/><img src="./data/淘宝类目页.png" width="200"/><img src="./data/淘宝搜索页.png" width="200"/><img src="./data/淘宝详情页.png" width="200"/>
+
+<img src="./data/拼多多首页.png" width="200"/><img src="./data/拼多多类目页.png" width="200"/><img src="./data/拼多多搜索页.png" width="200"/><img src="./data/拼多多详情页.png" width="200"/>
+
+<img src="./data/个人中心页面.png" width="200"/>
+
 
 ### 使用方法
 
@@ -48,5 +44,5 @@
 - 欢迎加作者微信【sunjiajis】，备注淘客源码。进群交流
 - 如有打赏，帮你解决BUG的速度会更快哦
 
-![打赏](./data/打赏.jpg)
-![微信](./data/微信.jpg)
+<img src="./data/打赏.jpg" width="200"/>
+<img src="./data/微信.jpg" width="200"/>

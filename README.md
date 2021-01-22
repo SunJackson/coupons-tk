@@ -1,13 +1,13 @@
-
-
+### 更新日志 20210122
+- 改写云函数为flask后端代码（听说云函数开始薅羊毛了，不得不提前下手）
+- 去除无用代码
+- 
 ### 更新日志 20210110
-初步整合拼多多和淘宝联盟优惠券API
+- 初步整合拼多多和淘宝联盟优惠券API
 
 ### 图片示例
 
-<img src="./data/首页.png" width = "200" alt="首页" align=center />
-<img src="./data/淘宝口令复制.png" width = "200" alt="淘宝口令复制" align=center />
-<img src="./data/个人中心.png" width = "200" alt="个人中心" align=center />
+<img src="./data/首页.png" width = "200" alt="首页" align=center /><img src="./data/淘宝口令复制.png" width = "200" alt="淘宝口令复制" align=center /><img src="./data/个人中心.png" width = "200" alt="个人中心" align=center />
 
 
 ### 使用方法
@@ -42,7 +42,7 @@
 - 欢迎加作者微信【sunjiajis】，备注淘客源码。进群交流
 - 如有打赏，帮你解决BUG的速度会更快哦
 
-![打赏](./data/打赏.jpg)
-![微信](./data/微信.jpg)
+<img src="./data/打赏.jpg" width = "200" alt="打赏" align=center /><img src="./data/微信.jpg" width = "200" alt="微信" align=center />
+
 
 如有线上案例或疑问，请提issue，或者关注微信公众号【猿起缘落】

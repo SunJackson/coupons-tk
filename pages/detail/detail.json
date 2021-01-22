@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "production": "/components/tb-production/production"
+  },
+  "navigationBarTitleText": "商品详情",
+  "enablePullDownRefresh": true
+}

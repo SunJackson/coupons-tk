@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="container">
+  <menu bindmenuItemClick="menuItemClick" mainmodel="{{mainmodel}}" menulist ="{{menulist}}" ></menu>
+  <view class="search-tool">
+    <input type="text" placeholder="请输入搜索关键字" bindinput="bindKeyInput" value="{{searchVal}}" confirm-type="search" bindconfirm="searchContent"/>
+    <view class="search-button" bindtap="searchContent">搜索</view>
+  </view>
+  <view class="menu">
+    <view class="menu-item" bindtap="gotoStype" data-type="{{28026}}" data-title="热销排行" data-tktype="tb" data-banner="{{env.subTypeBannerImage.bannertbhot}}">
+      <image src="/images/tbhot.png" mode="aspectFit"/>
+      <text>热销排行</text>
+    </view>
+    <view class="menu-item" bindtap="gotoStype" data-type="{{3756}}" data-title="好券直播" data-tktype="tb" data-banner="{{env.subTypeBannerImage.bannertbyhq}}">
+      <image src="/images/tbyhq.png" mode="aspectFit"/>
+      <text>大额满减</text>
+    </view>
+    <view class="menu-item" bindtap="gotoStype" data-type="{{3786}}" data-title="品牌好货" data-tktype="tb" data-banner="{{env.subTypeBannerImage.bannertbpp}}">
+      <image src="/images/tbpp.png" mode="aspectFit"/>
+      <text>品牌好货</text>
+    </view>
+    <view class="menu-item" bindtap="gotoStype" data-type="{{27162}}" data-title="一元购" data-tktype="tb" data-banner="{{env.subTypeBannerImage.banneryyg}}">
+      <image src="/images/tbxs.png" mode="aspectFit"/>
+      <text>限时特惠</text>
+    </view>
+  </view>
+
+  <view class="production-tools">
+    <scroll-view class="category" scroll-x="{{true}}" style="width:100%" scroll-y="{{false}}">
+      <view wx:for="{{categorys}}" class="category-item  {{s_category_oid === item.oid ? 'category-item-s' : ''}}" data-oid="{{item.oid}}" bindtap="changeCategoryId" wx:key="categorys">{{item.text}}</view>
+    </scroll-view>
+  </view>
+  <production productions="{{productions}}"  tk_type="{{tk_type}}"  is_stype="true" />
+</view>

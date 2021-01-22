@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "production": "/components/tb-production/production"
+  },
+  "navigationBarTitleText": "精选",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 60
+}

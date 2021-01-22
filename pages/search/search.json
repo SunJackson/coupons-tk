@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "production": "/components/tb-production/production"
+  },
+  "navigationBarTitleText": "搜索",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 60
+}

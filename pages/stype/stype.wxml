@@ -1,0 +1,6 @@
+<!--pages/stype/stype.wxml-->
+
+<view class="container">
+  <image class="s-banner" src="{{banner}}" wx:if="{{banner}}" mode="aspectFill" />
+  <production productions="{{productions}}" tk_type="{{tk_type}}" is_stype="true"/>
+</view>

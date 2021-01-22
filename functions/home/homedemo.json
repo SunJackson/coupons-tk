@@ -1,0 +1,4 @@
+{"title":"顶部","url":"../../images/top.png","id":"top","sort":1.0}
+{"id":"index","title":"多多券","url":"../../images/pdd-menu.png","sort":2.0}
+{"id":"about","title":"我的","url":"../../images/home-s.png","sort":99.0}
+{"id":"wm","title":"外卖券","url":"../../images/waimai.png","sort":3.0,"appid":"wx9472d5ad54e879ed","path":"/pages/index/index"}

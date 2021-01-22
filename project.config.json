@@ -1,0 +1,88 @@
+{
+  "description": "项目配置文件",
+  "cloudfunctionRoot": "functions/",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": false,
+    "coverView": true,
+    "nodeModules": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": true,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.14.0",
+  "appid": "wx5beb3dc0c3575180",
+  "projectname": "%E5%A4%9A%E5%A4%9A%E9%A2%86%E5%88%B8",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "scripts": {},
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "分享进入",
+          "pathName": "pages/detail/detail",
+          "query": "gid=217398863353&search_id=5707f11cda88742cb8909da40936b3967a6&tk_type=pdd",
+          "scene": 1008
+        },
+        {
+          "name": "pages/detail/detail",
+          "pathName": "pages/tbindex/tbindex",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/tbindex/tbindex",
+          "pathName": "pages/tbindex/tbindex",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{"_id":"ad20683160054146013966ea07137752","title":"顶部","url":"../../images/top.png","id":"top","sort":1.0}
+{"_id":"ad20683160054146013966eb72c7bf12","id":"index","title":"多多券","url":"../../images/pdd-menu.png","sort":2.0}
+{"_id":"ad20683160054146013966ec363175cb","id":"about","title":"我的","url":"../../images/home-s.png","sort":99.0}
+{"_id":"ad20683160054146013966ed7bafbf28","id":"wm","title":"外卖券","url":"../../images/waimai.png","sort":3.0,"appid":"wx9472d5ad54e879ed","path":"/pages/index/index"}
+{"_id":"673028726009132401018797081f6d79","id":"tbindex","title":"淘淘券","url":"../../images/tb-s.png","sort":3.0}

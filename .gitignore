@@ -1,16 +1,14 @@
-.DS_Store
-node_modules/
-unpackage/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-/test/unit/coverage/
+# Windows
+[Dd]esktop.ini
+Thumbs.db
+$RECYCLE.BIN/
 
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
+# macOS
+.DS_Store
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+
+# Node.js
 node_modules/

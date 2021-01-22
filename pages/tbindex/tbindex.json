@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "production": "/components/tb-production/production"
+  },
+  "navigationBarTitleText": "淘淘券",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 60
+}

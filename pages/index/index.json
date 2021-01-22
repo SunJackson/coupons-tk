@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "production": "/components/pdd-production/production"
+  },
+  "navigationBarTitleText": "多多券",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 60
+}

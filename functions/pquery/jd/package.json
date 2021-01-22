@@ -1,0 +1,32 @@
+{
+  "name": "jd-union",
+  "version": "0.1.1",
+  "description": "京东联盟SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "京东",
+    "京东联盟",
+    "淘宝",
+    "淘宝客",
+    "淘宝联盟"
+  ],
+  "author": "Changeden",
+  "license": "ISC",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "md5": "^2.2.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "bugs": {
+    "url": "https://gitee.com/Chans-Open-Source/jd-union-nodejs-sdk/issues"
+  },
+  "homepage": "https://gitee.com/Chans-Open-Source/jd-union-nodejs-sdk",
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/Chans-Open-Source/jd-union-nodejs-sdk.git"
+  }
+}
